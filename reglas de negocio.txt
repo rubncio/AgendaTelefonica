@@ -43,9 +43,10 @@ CREAR:
 -no se puede crear un contacto con numTelef, ya existente para evitar duplicados
 -no acepta un nombre vacio
 -no acepta telefonos incompatibles con la extension indicada
--acepta varios correos o ninguno
+-acepta varios correos o ninguno siendo opcional
 -Nombre obligatorio y limitado por caracteres
--Descripcion opcional limitado por caracteres.
+-Descripcion opcional limitado por caracteres
+-Validará tanto el correo como el numero Telefono.
 LEER:
 -Devuelve una lista de todos los contactos guardados y su informacion.
 -no se mostrarán los contactos bloqueados

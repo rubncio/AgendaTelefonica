@@ -1,6 +1,6 @@
 # **AgendaTelefonica**
 ## DESCRIPCION
-Se trata de un gestor de contactos, solo gestionará la entidad de contactos con los siguientes campos:
+Se trata de un gestor de contactos, solo gestionará la entidad de contactos mediante JSON con los siguientes campos:
 * Telefono
 * Nombre
 * Apellidos
@@ -33,6 +33,18 @@ Además de la operaciones CRUD(Crear contacto, Consultar contactos, Modificar co
   `def crearNombreVacio:`
 * ### Entrada: 
   * NombreVacio
+* ### Salida: 
+  * Error
+  -----------------------
+  `def crearCorreoInvalido:`
+* ### Entrada: 
+  * Correo Invalido
+* ### Salida: 
+  * Error
+  -----------------------
+  `def crearTelefInvalido:`
+* ### Entrada: 
+  * numero de telefono Invalido
 * ### Salida: 
   * Error
   -----------------------
