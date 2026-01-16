@@ -1,0 +1,50 @@
+Campos CONTACTOS
+Telefono 
+Nombre 
+Apellidos 
+Descripcion 
+Correo
+Favoritos
+Bloqueados
+
+TELEFONO:
+-Tipo String
+-Indice
+-Obligatorio
+
+NOMBRE:
+-Tipo String
+-Obligatorio
+-Limite de 25 caracteres
+
+APELLIDOS
+-Tipo String
+-Opcional
+-Limite de 25 caracteres
+
+Descripcion
+-Tipo String
+-Opcional
+-Limite de 50 caracteres
+
+CORREO
+-tipo String
+-Opcional
+-Acepta varios(lista de correos)
+
+FAVORITO
+tipo booleano
+
+BLOQUEADO
+-Tipo booleano
+
+Funciones
+VALIDACIONES:
+
+
+Funciones Extra:
+Busqueda por nombre y telefono de contactos 
+algo con el correo
+Nota importante:
+En el caso de favoritos al no ser favoritos una entidad se añadiria un contacto a favoritos mediante patch o put, si se podria tratar 
+favoritos como una entidad a la hora de hacer un get siendo lo que devolvemos no la lista de entidad sino una lista filtrada metodo get sobre Contacto/Favoritos.
