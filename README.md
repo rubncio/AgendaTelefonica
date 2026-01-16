@@ -19,10 +19,9 @@ Además de la operaciones CRUD(Crear contacto, Consultar contactos, Modificar co
     *  mostrar favoritos
     *  añadir a favoritos
 * LISTA BLOQUEADOS
- * Permite bloquear contactos no como no deseados teniendo las funciones de:
-  * mostrar bloqueados
-  * bloquear contacto  
-* * 
+  * Permite bloquear contactos no como no deseados teniendo las funciones de:
+    * mostrar bloqueados
+    * bloquear contacto   
 
 ## VALIDACIONES
   
