@@ -2,7 +2,6 @@
 ## DESCRIPCION
 Se trata de un gestor de contactos, solo gestionará la entidad de contactos con los siguientes campos:
 * Telefono
-* Extension
 * Nombre
 * Apellidos
 * Descripcion
@@ -25,20 +24,53 @@ Además de la operaciones CRUD(Crear contacto, Consultar contactos, Modificar co
 
 ## VALIDACIONES
 ### CREAR
-  `def CrearNumTelefRepetido:`
+  `def crearNumTelefRepetido:`
 * ### Entrada: 
   * Numero de telefono repetido
 * ### Salida: 
   * Error
   -----------------------
-  `def CrearNombreVacio:`
+  `def crearNombreVacio:`
 * ### Entrada: 
   * NombreVacio
 * ### Salida: 
   * Error
+  -----------------------
+  `def crearTelefonoVacio:`
+* ### Entrada: 
+  * Campo telefono vacio
+* ### Salida: 
+  * Error
+  -----------------------
+  `def crearVariosTelef:`
+* ### Entrada: 
+  * Valor de telefono = lista de telefonos
+* ### Salida: 
+  * Error
 
 ### CONSULTAR
+  `def leerAvanzadoCaracterVacio:`
+* ### Entrada: 
+  * Caracter a buscar vacio
+* ### Salida: 
+  * Lista vacia
 
 ### MODIFICAR
+  `def modificarNumTelefVacio:`
+* ### Entrada: 
+  * campo de telefono vacio
+* ### Salida: 
+  * Error
+  -----------------------
+  `def modificarNombreVacio:`
+* ### Entrada: 
+  * Campo de nombre vacio
+* ### Salida: 
+  * Error
 
 ### ELIMINAR
+ `def eliminarNumTelefVacio:`
+* ### Entrada: 
+  * Campo de telefono vacio
+* ### Salida: 
+  * Error

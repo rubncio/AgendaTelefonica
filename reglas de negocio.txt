@@ -39,12 +39,33 @@ BLOQUEADO
 -Tipo booleano
 
 Funciones
-VALIDACIONES:
+CREAR:
+-no se puede crear un contacto con numTelef, ya existente para evitar duplicados
+-no acepta un nombre vacio
+-no acepta telefonos incompatibles con la extension indicada
+-acepta varios correos o ninguno
+-Nombre obligatorio y limitado por caracteres
+-Descripcion opcional limitado por caracteres.
+LEER:
+-Devuelve una lista de todos los contactos guardados y su informacion.
+-no se mostrarán los contactos bloqueados
+-se indicará por cada registro si es favorito.
+-devolver registros con Paginación indicada en la query
+LEER Favoritos:
+-retornará una lista de contactos favoritos
+LEER Bloqueados:
+-retornará una lista de contactos bloqueados
+MODIFICAR:
+-no se aceptará como Queryparametro un numTelef que no exista.
+-los cambios se efectuarán sobre el numTelef indicado,
+-los demas campos contendrán las mismas reglas.
+ELIMINAR:
+-no se aceptará como parametro un numTelef que no exista.
+BUSQUEDA AVANZADA:
+devolverá a partir de un texto(queryParameter indicado en la uri) num Telefono o nombre una lista de contactos.
+-se deberá indicar que tipo de busqueda se quiere realizar por telefono o por nombre
+-si el campo esta vacio obviamente se retornará una lista vacia.
+LISTA FAVORITOS 
 
 
-Funciones Extra:
-Busqueda por nombre y telefono de contactos 
-algo con el correo
-Nota importante:
-En el caso de favoritos al no ser favoritos una entidad se añadiria un contacto a favoritos mediante patch o put, si se podria tratar 
-favoritos como una entidad a la hora de hacer un get siendo lo que devolvemos no la lista de entidad sino una lista filtrada metodo get sobre Contacto/Favoritos.
+Metodo HTTP POST sobre /CONTACTOS/FAVORITOS/numTelefono XXX-XXX-XXX
