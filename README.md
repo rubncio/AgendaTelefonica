@@ -24,4 +24,9 @@ Además de la operaciones CRUD(Crear contacto, Consultar contactos, Modificar co
     * bloquear contacto   
 
 ## VALIDACIONES
-  
+### CREAR
+  `def CrearNumTelefRepetido:`
+* ### Entrada: 
+  * Numero de telefono repetido
+* ### Salida: 
+  * Error
