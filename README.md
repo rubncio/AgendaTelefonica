@@ -11,5 +11,13 @@ Se trata de un gestor de contactos, solo gestionará la entidad de contactos con
 * Bloqueado
 
 ## FUNCIONES
+Además de la operaciones CRUD(Crear contacto, Consultar contactos, Modificar contacto y eliminar contacto) hay funciones extras que son las siguientes:
+* BUSQUEDA AVANZADA:
+* * Permite realizar una busqueda a partir del un parametro dado que puede ser un numero de telefono o nombre de contacto ya que son campos obligatorios.
+* LISTA FAVORITOS
+* * Permite destacar contactos como favoritos
+* LISTA BLOQUEADOS
+* * Permite bloquear contactos no como no deseados
 
 ## VALIDACIONES
+  
