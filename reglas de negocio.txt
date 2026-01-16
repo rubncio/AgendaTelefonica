@@ -65,7 +65,3 @@ BUSQUEDA AVANZADA:
 devolverá a partir de un texto(queryParameter indicado en la uri) num Telefono o nombre una lista de contactos.
 -se deberá indicar que tipo de busqueda se quiere realizar por telefono o por nombre
 -si el campo esta vacio obviamente se retornará una lista vacia.
-LISTA FAVORITOS 
-
-
-Metodo HTTP POST sobre /CONTACTOS/FAVORITOS/numTelefono XXX-XXX-XXX
