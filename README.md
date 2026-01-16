@@ -15,7 +15,8 @@ Además de la operaciones CRUD(Crear contacto, Consultar contactos, Modificar co
 * BUSQUEDA AVANZADA:
 * * Permite realizar una busqueda a partir del un parametro dado que puede ser un numero de telefono o nombre de contacto ya que son campos obligatorios.
 * LISTA FAVORITOS
-* * Permite destacar contactos como favoritos
+  * Permite destacar contactos como favoritos teniendo las funciones de:
+    *  mostrar favoritos añadir a favoritos
 * LISTA BLOQUEADOS
 * * Permite bloquear contactos no como no deseados
 
