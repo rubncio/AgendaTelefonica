@@ -30,3 +30,15 @@ Además de la operaciones CRUD(Crear contacto, Consultar contactos, Modificar co
   * Numero de telefono repetido
 * ### Salida: 
   * Error
+  -----------------------
+  `def CrearNombreVacio:`
+* ### Entrada: 
+  * NombreVacio
+* ### Salida: 
+  * Error
+
+### CONSULTAR
+
+### MODIFICAR
+
+### ELIMINAR
